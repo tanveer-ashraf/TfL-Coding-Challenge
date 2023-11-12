@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47C3CBE82B007CCA004E47BF /* TubeLineStatusViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C3CBE72B007CCA004E47BF /* TubeLineStatusViewModelTests.swift */; };
+		47C3CBF22B007CCA004E47BF /* TFLCodeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C3CBF12B007CCA004E47BF /* TFLCodeAppUITests.swift */; };
+		47C3CBF42B007CCA004E47BF /* TFLCodeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C3CBF32B007CCA004E47BF /* TFLCodeAppUITestsLaunchTests.swift */; };
+		47C3CC382B007DE2004E47BF /* TubeStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C3CC2C2B007DE2004E47BF /* TubeStatusViewController.swift */; };
+		47C3CC392B007DE2004E47BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47C3CC2D2B007DE2004E47BF /* Assets.xcassets */; };
+		47C3CC3A2B007DE2004E47BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47C3CC2F2B007DE2004E47BF /* LaunchScreen.storyboard */; };
+		47C3CC3B2B007DE2004E47BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47C3CC312B007DE2004E47BF /* Main.storyboard */; };
+		47C3CC3C2B007DE2004E47BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C3CC352B007DE2004E47BF /* AppDelegate.swift */; };
+		47C3CC3D2B007DE2004E47BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C3CC362B007DE2004E47BF /* SceneDelegate.swift */; };
+		47C3CC402B007E16004E47BF /* TubeLineStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C3CC3F2B007E16004E47BF /* TubeLineStatus.swift */; };
+		47C3CC432B007E5A004E47BF /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C3CC422B007E5A004E47BF /* NetworkService.swift */; };
+		47C3CC452B007E6A004E47BF /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C3CC442B007E6A004E47BF /* APIManager.swift */; };
+		47C3CC472B007E7E004E47BF /* TubeLineStatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C3CC462B007E7E004E47BF /* TubeLineStatusViewModel.swift */; };
+		47C3CC492B007ED7004E47BF /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C3CC482B007ED6004E47BF /* Request.swift */; };
+		47C3CC4B2B007F73004E47BF /* NetworkServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C3CC4A2B007F73004E47BF /* NetworkServiceTests.swift */; };
+		47C3CC522B008765004E47BF /* CacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C3CC512B008765004E47BF /* CacheService.swift */; };
+		47C3CC552B008E9A004E47BF /* TubeStatusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C3CC542B008E9A004E47BF /* TubeStatusTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47C3CBE42B007CCA004E47BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47C3CBC52B007CC8004E47BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47C3CBCC2B007CC8004E47BF;
+			remoteInfo = TFLCodeApp;
+		};
+		47C3CBEE2B007CCA004E47BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47C3CBC52B007CC8004E47BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47C3CBCC2B007CC8004E47BF;
+			remoteInfo = TFLCodeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47C3CBCD2B007CC8004E47BF /* TFLCodeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFLCodeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47C3CBE32B007CCA004E47BF /* TFLCodeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFLCodeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47C3CBE72B007CCA004E47BF /* TubeLineStatusViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TubeLineStatusViewModelTests.swift; sourceTree = "<group>"; };
+		47C3CBED2B007CCA004E47BF /* TFLCodeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFLCodeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47C3CBF12B007CCA004E47BF /* TFLCodeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFLCodeAppUITests.swift; sourceTree = "<group>"; };
+		47C3CBF32B007CCA004E47BF /* TFLCodeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFLCodeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		47C3CC2C2B007DE2004E47BF /* TubeStatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TubeStatusViewController.swift; sourceTree = "<group>"; };
+		47C3CC2D2B007DE2004E47BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47C3CC302B007DE2004E47BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47C3CC322B007DE2004E47BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47C3CC352B007DE2004E47BF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47C3CC362B007DE2004E47BF /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		47C3CC372B007DE2004E47BF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47C3CC3F2B007E16004E47BF /* TubeLineStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TubeLineStatus.swift; sourceTree = "<group>"; };
+		47C3CC422B007E5A004E47BF /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		47C3CC442B007E6A004E47BF /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		47C3CC462B007E7E004E47BF /* TubeLineStatusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TubeLineStatusViewModel.swift; sourceTree = "<group>"; };
+		47C3CC482B007ED6004E47BF /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		47C3CC4A2B007F73004E47BF /* NetworkServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceTests.swift; sourceTree = "<group>"; };
+		47C3CC512B008765004E47BF /* CacheService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheService.swift; sourceTree = "<group>"; };
+		47C3CC542B008E9A004E47BF /* TubeStatusTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TubeStatusTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47C3CBCA2B007CC8004E47BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47C3CBE02B007CCA004E47BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47C3CBEA2B007CCA004E47BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47C3CBC42B007CC8004E47BF = {
+			isa = PBXGroup;
+			children = (
+				47C3CC2B2B007DE2004E47BF /* TFLCodeApp */,
+				47C3CBE62B007CCA004E47BF /* TFLCodeAppTests */,
+				47C3CBF02B007CCA004E47BF /* TFLCodeAppUITests */,
+				47C3CBCE2B007CC8004E47BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47C3CBCE2B007CC8004E47BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47C3CBCD2B007CC8004E47BF /* TFLCodeApp.app */,
+				47C3CBE32B007CCA004E47BF /* TFLCodeAppTests.xctest */,
+				47C3CBED2B007CCA004E47BF /* TFLCodeAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47C3CBE62B007CCA004E47BF /* TFLCodeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				47C3CBE72B007CCA004E47BF /* TubeLineStatusViewModelTests.swift */,
+				47C3CC4A2B007F73004E47BF /* NetworkServiceTests.swift */,
+			);
+			path = TFLCodeAppTests;
+			sourceTree = "<group>";
+		};
+		47C3CBF02B007CCA004E47BF /* TFLCodeAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47C3CBF12B007CCA004E47BF /* TFLCodeAppUITests.swift */,
+				47C3CBF32B007CCA004E47BF /* TFLCodeAppUITestsLaunchTests.swift */,
+			);
+			path = TFLCodeAppUITests;
+			sourceTree = "<group>";
+		};
+		47C3CC2B2B007DE2004E47BF /* TFLCodeApp */ = {
+			isa = PBXGroup;
+			children = (
+				47C3CC532B008E6F004E47BF /* Views */,
+				47C3CC502B008746004E47BF /* Utilities */,
+				47C3CC412B007E21004E47BF /* TubeLineStatus */,
+				47C3CC2D2B007DE2004E47BF /* Assets.xcassets */,
+				47C3CC2E2B007DE2004E47BF /* Models */,
+				47C3CC2F2B007DE2004E47BF /* LaunchScreen.storyboard */,
+				47C3CC312B007DE2004E47BF /* Main.storyboard */,
+				47C3CC332B007DE2004E47BF /* API */,
+				47C3CC342B007DE2004E47BF /* Main */,
+				47C3CC372B007DE2004E47BF /* Info.plist */,
+			);
+			path = TFLCodeApp;
+			sourceTree = "<group>";
+		};
+		47C3CC2E2B007DE2004E47BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				47C3CC3F2B007E16004E47BF /* TubeLineStatus.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		47C3CC332B007DE2004E47BF /* API */ = {
+			isa = PBXGroup;
+			children = (
+				47C3CC422B007E5A004E47BF /* NetworkService.swift */,
+				47C3CC442B007E6A004E47BF /* APIManager.swift */,
+				47C3CC482B007ED6004E47BF /* Request.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		47C3CC342B007DE2004E47BF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				47C3CC352B007DE2004E47BF /* AppDelegate.swift */,
+				47C3CC362B007DE2004E47BF /* SceneDelegate.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		47C3CC412B007E21004E47BF /* TubeLineStatus */ = {
+			isa = PBXGroup;
+			children = (
+				47C3CC2C2B007DE2004E47BF /* TubeStatusViewController.swift */,
+				47C3CC462B007E7E004E47BF /* TubeLineStatusViewModel.swift */,
+			);
+			path = TubeLineStatus;
+			sourceTree = "<group>";
+		};
+		47C3CC502B008746004E47BF /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				47C3CC512B008765004E47BF /* CacheService.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		47C3CC532B008E6F004E47BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				47C3CC542B008E9A004E47BF /* TubeStatusTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47C3CBCC2B007CC8004E47BF /* TFLCodeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47C3CBF72B007CCA004E47BF /* Build configuration list for PBXNativeTarget "TFLCodeApp" */;
+			buildPhases = (
+				47C3CBC92B007CC8004E47BF /* Sources */,
+				47C3CBCA2B007CC8004E47BF /* Frameworks */,
+				47C3CBCB2B007CC8004E47BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TFLCodeApp;
+			productName = TFLCodeApp;
+			productReference = 47C3CBCD2B007CC8004E47BF /* TFLCodeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47C3CBE22B007CCA004E47BF /* TFLCodeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47C3CBFA2B007CCA004E47BF /* Build configuration list for PBXNativeTarget "TFLCodeAppTests" */;
+			buildPhases = (
+				47C3CBDF2B007CCA004E47BF /* Sources */,
+				47C3CBE02B007CCA004E47BF /* Frameworks */,
+				47C3CBE12B007CCA004E47BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47C3CBE52B007CCA004E47BF /* PBXTargetDependency */,
+			);
+			name = TFLCodeAppTests;
+			productName = TFLCodeAppTests;
+			productReference = 47C3CBE32B007CCA004E47BF /* TFLCodeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47C3CBEC2B007CCA004E47BF /* TFLCodeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47C3CBFD2B007CCA004E47BF /* Build configuration list for PBXNativeTarget "TFLCodeAppUITests" */;
+			buildPhases = (
+				47C3CBE92B007CCA004E47BF /* Sources */,
+				47C3CBEA2B007CCA004E47BF /* Frameworks */,
+				47C3CBEB2B007CCA004E47BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47C3CBEF2B007CCA004E47BF /* PBXTargetDependency */,
+			);
+			name = TFLCodeAppUITests;
+			productName = TFLCodeAppUITests;
+			productReference = 47C3CBED2B007CCA004E47BF /* TFLCodeAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47C3CBC52B007CC8004E47BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					47C3CBCC2B007CC8004E47BF = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					47C3CBE22B007CCA004E47BF = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 47C3CBCC2B007CC8004E47BF;
+					};
+					47C3CBEC2B007CCA004E47BF = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 47C3CBCC2B007CC8004E47BF;
+					};
+				};
+			};
+			buildConfigurationList = 47C3CBC82B007CC8004E47BF /* Build configuration list for PBXProject "TFLCodeApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47C3CBC42B007CC8004E47BF;
+			productRefGroup = 47C3CBCE2B007CC8004E47BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47C3CBCC2B007CC8004E47BF /* TFLCodeApp */,
+				47C3CBE22B007CCA004E47BF /* TFLCodeAppTests */,
+				47C3CBEC2B007CCA004E47BF /* TFLCodeAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47C3CBCB2B007CC8004E47BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47C3CC3B2B007DE2004E47BF /* Main.storyboard in Resources */,
+				47C3CC392B007DE2004E47BF /* Assets.xcassets in Resources */,
+				47C3CC3A2B007DE2004E47BF /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47C3CBE12B007CCA004E47BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47C3CBEB2B007CCA004E47BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47C3CBC92B007CC8004E47BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47C3CC452B007E6A004E47BF /* APIManager.swift in Sources */,
+				47C3CC552B008E9A004E47BF /* TubeStatusTableViewCell.swift in Sources */,
+				47C3CC492B007ED7004E47BF /* Request.swift in Sources */,
+				47C3CC432B007E5A004E47BF /* NetworkService.swift in Sources */,
+				47C3CC3C2B007DE2004E47BF /* AppDelegate.swift in Sources */,
+				47C3CC472B007E7E004E47BF /* TubeLineStatusViewModel.swift in Sources */,
+				47C3CC382B007DE2004E47BF /* TubeStatusViewController.swift in Sources */,
+				47C3CC3D2B007DE2004E47BF /* SceneDelegate.swift in Sources */,
+				47C3CC522B008765004E47BF /* CacheService.swift in Sources */,
+				47C3CC402B007E16004E47BF /* TubeLineStatus.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47C3CBDF2B007CCA004E47BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47C3CC4B2B007F73004E47BF /* NetworkServiceTests.swift in Sources */,
+				47C3CBE82B007CCA004E47BF /* TubeLineStatusViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47C3CBE92B007CCA004E47BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47C3CBF42B007CCA004E47BF /* TFLCodeAppUITestsLaunchTests.swift in Sources */,
+				47C3CBF22B007CCA004E47BF /* TFLCodeAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47C3CBE52B007CCA004E47BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47C3CBCC2B007CC8004E47BF /* TFLCodeApp */;
+			targetProxy = 47C3CBE42B007CCA004E47BF /* PBXContainerItemProxy */;
+		};
+		47C3CBEF2B007CCA004E47BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47C3CBCC2B007CC8004E47BF /* TFLCodeApp */;
+			targetProxy = 47C3CBEE2B007CCA004E47BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47C3CC2F2B007DE2004E47BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47C3CC302B007DE2004E47BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		47C3CC312B007DE2004E47BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47C3CC322B007DE2004E47BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47C3CBF52B007CCA004E47BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47C3CBF62B007CCA004E47BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47C3CBF82B007CCA004E47BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TFLCodeApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.com.test.TFLCodeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47C3CBF92B007CCA004E47BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TFLCodeApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.com.test.TFLCodeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		47C3CBFB2B007CCA004E47BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.com.test.TFLCodeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TFLCodeApp.app/TFLCodeApp";
+			};
+			name = Debug;
+		};
+		47C3CBFC2B007CCA004E47BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.com.test.TFLCodeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TFLCodeApp.app/TFLCodeApp";
+			};
+			name = Release;
+		};
+		47C3CBFE2B007CCA004E47BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.com.test.TFLCodeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TFLCodeApp;
+			};
+			name = Debug;
+		};
+		47C3CBFF2B007CCA004E47BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.com.test.TFLCodeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TFLCodeApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47C3CBC82B007CC8004E47BF /* Build configuration list for PBXProject "TFLCodeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47C3CBF52B007CCA004E47BF /* Debug */,
+				47C3CBF62B007CCA004E47BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47C3CBF72B007CCA004E47BF /* Build configuration list for PBXNativeTarget "TFLCodeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47C3CBF82B007CCA004E47BF /* Debug */,
+				47C3CBF92B007CCA004E47BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47C3CBFA2B007CCA004E47BF /* Build configuration list for PBXNativeTarget "TFLCodeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47C3CBFB2B007CCA004E47BF /* Debug */,
+				47C3CBFC2B007CCA004E47BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47C3CBFD2B007CCA004E47BF /* Build configuration list for PBXNativeTarget "TFLCodeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47C3CBFE2B007CCA004E47BF /* Debug */,
+				47C3CBFF2B007CCA004E47BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47C3CBC52B007CC8004E47BF /* Project object */;
+}
